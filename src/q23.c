@@ -1,1 +1,1 @@
-// Given a variable num, write an expression that checks if it is a power of 2.
+(num > 0) && ((num & (num - 1)) == 0)
