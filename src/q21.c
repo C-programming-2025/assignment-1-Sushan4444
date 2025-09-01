@@ -1,1 +1,4 @@
-// Create an expression that swaps the values of three variables x, y, and z in a cyclic order (i.e., x becomes y, y becomes z, and z becomes x).
+x = x + y + z;
+y = x - (y + z);
+z = x - (y + z);
+x = x - (y + z);
