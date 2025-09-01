@@ -1,1 +1,1 @@
-// Write an expression that checks if a number is both positive and even.
+(num > 0) && (num / 2 * 2 == num)
